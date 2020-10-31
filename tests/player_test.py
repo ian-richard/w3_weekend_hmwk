@@ -16,3 +16,7 @@ class PlayerTest(unittest.TestCase):
 
     def test_has_win_count(self):
         self.assertEqual(0, self.player3.win_count)
+
+    def test_add_win_count(self):
+        self.player1.add_win()
+        self.assertEqual(1, self.player1.win_count)
