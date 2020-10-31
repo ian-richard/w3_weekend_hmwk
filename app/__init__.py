@@ -1,4 +1,4 @@
-from flask import flask
-app = Flask(__name__)
+# from flask import flask
+# app = Flask(__name__)
 
-from app import controller
+# from app import controller
